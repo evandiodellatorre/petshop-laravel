@@ -28,9 +28,12 @@ logo apos acabar a instalação do npm digite o código abaixo:
 
 logo apos acabar o run dev digite o código abaixo para fazer uma copia do arquivo .env.example e renomear para .env:
 
-`nv .env.example .env`
+`cp .env.example .env`
 
-logo após entre no arquivo .env e altere as credencias de banco de dados, email e qualquer outras necessárias.
+logo após entre no arquivo .env altere as credencias de banco de dados, email e qualquer outras necessárias.
+abaixo de "APP_URL=http://localhost" acrescente o código abaixo:
+
+`ASSET_URL=/assets/`
 
 digite o código abaixo para gerar a chave de acesso do laravel
 
