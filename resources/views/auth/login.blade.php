@@ -29,7 +29,7 @@
                                     <input id="email" name="email" type="email" class="@error('email') is-invalid @enderror" Placeholder="E-Mail" style="text-transform:lowercase" autofocus required>
                                     @error('email')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                        <strong style="color:white;">{{ $message }}</strong>
                                     </span>
                                     @enderror
                                 </p>
